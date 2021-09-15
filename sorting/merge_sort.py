@@ -73,5 +73,4 @@ def merge_sort(array):
 
 # tests
 if (__name__ == "__main__"):
-    print(merge_sort([1, 4, 44, -11, 0, 2, 3, 0, -1])
-          == [-11, -1, 0, 0, 1, 2, 3, 4, 44])
+    print(merge_sort([54, 26, 93, 17, 77, 31, 44, 55, 20]))
