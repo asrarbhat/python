@@ -15,6 +15,12 @@ class stack:
         self.__length -= 1
         return self.__stack.pop()
 
+    def seek(self):
+        if self.__length == 0:
+            print("stack empty")
+            return False
+        return self.__stack[-1]
+
     def isempty(self):
         return self.__length == 0
 
